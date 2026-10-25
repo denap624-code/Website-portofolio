@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undangan Pernikahan</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: #f5f0e8;
+      color: #405447;
+      text-align: center;
+    }
+
+    .hero {
+      min-height: 100vh;
+      padding: 70px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(
+        135deg, #e1eadf, #fff8ec
+      );
+    }
+
+    .label {
+      letter-spacing: 4px;
+      font-size: 12px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 8vw, 58px);
+      margin: 25px 0;
+      color: #58745e;
+    }
+
+    .names {
+      font-size: 23px;
+      line-height: 1.8;
+    }
+
+    .date {
+      margin: 20px 0;
+      line-height: 1.8;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 14px 25px;
+      background: #58745e;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+    }
+
+    .details {
+      padding: 60px 20px;
+      line-height: 1.8;
+    }
+
+    footer {
+      padding: 25px;
+      background: #dce6d9;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="hero">
+    <p class="label">THE WEDDING INVITATION</p>
+
+    <h1>We Are Getting Married</h1>
+
+    <div class="names">
+      <strong>Andi & Siti</strong>
+    </div>
+
+    <p class="date">
+      Minggu, 20 Desember 2026<br>
+      Pukul 10.00 WIB
+    </p>
+
+    <a href="#acara" class="button">
+      Lihat Undangan
+    </a>
+  </section>
+
+  <section class="details" id="acara">
+    <h2>Assalamu'alaikum</h2>
+    <p>
+      Dengan penuh kebahagiaan, kami mengundang
+      Anda untuk hadir di acara pernikahan kami.
+    </p>
+
+    <h2>Akad & Resepsi</h2>
+    <p>
+      20 Desember 2026<br>
+      Pukul 10.00 WIB<br>
+      Gedung Serbaguna
+    </p>
+
+    <a
+      class="button"
+      href="https://maps.google.com/"
+      target="_blank"
+      rel="noopener"
+    >
+      Lihat Lokasi
+    </a>
+  </section>
+
+  <footer>
+    Terima kasih atas doa dan restunya ❤️
+  </footer>
+</body>
+</html>
